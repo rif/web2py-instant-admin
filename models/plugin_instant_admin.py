@@ -1,6 +1,6 @@
 import os
 import copy
-from storage import Settings
+from gluon.storage import Settings
 
 global_env = copy.copy(globals())
 
