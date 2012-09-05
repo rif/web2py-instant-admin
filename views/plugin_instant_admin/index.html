@@ -1,4 +1,5 @@
-{{extend 'layout.html'}}
+{{left_sidebar_enabled,right_sidebar_enabled=False,True}}
+{{extend 'plugin_instant_admin/layout.html'}}
 
 {{block secondary-navigation}}
     <li class="first active"><a href="{{=URL('index')}}">Dashboard</a></li>
